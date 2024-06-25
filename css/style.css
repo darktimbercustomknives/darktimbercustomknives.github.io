@@ -308,6 +308,7 @@ ol {
 }
 .header__logo a {
   display: inline-block;
+  width: 40%;
 }
 
 .header__nav__option {
@@ -1823,12 +1824,23 @@ ol {
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 @media only screen and (min-width: 1200px) {
+
+  .header__logo a {
+    display: inline-block;
+    width: 75%;
+  }
+
   .container {
     max-width: 1170px;
   }
 }
 /* Medium Device = 1200px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+  .header__logo a {
+    display: inline-block;
+    width: 75%;
+  }
 
   .header__nav__menu {
     margin-right: 25px;
@@ -1862,8 +1874,14 @@ ol {
     max-width: 930px !important;
   }
 }
+
 /* Tablet Device = 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .header__logo a {
+    display: inline-block;
+    width: 30%;
+  }
 
   .hero__slider.owl-carousel .owl-dots {
     max-width: 690px !important;
@@ -1994,7 +2012,7 @@ ol {
 
   .header__logo a {
     display: inline-block;
-    width: 40%;
+    width: 30%;
   }
 
   .services__title {
@@ -2178,6 +2196,12 @@ ol {
 }
 /* Small Device = 320px */
 @media only screen and (max-width: 479px) {
+
+  .header__logo a {
+    display: inline-block;
+    width: 40%;
+  }
+
   .hero__text h2 {
     font-size: 30px;
     line-height: 40px;
