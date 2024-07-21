@@ -1992,6 +1992,10 @@ ol {
 /* Wide Mobile = 480px */
 @media only screen and (max-width: 767px) {
 
+  .work__item {
+    background-size: 100% 100%; /* sets the image to 50% of the parent container's width and height */
+  }
+
   .portfolio__item__video {
     background-size: 80% 100%; /* sets the image to % of the parent container's width and height */
   }
