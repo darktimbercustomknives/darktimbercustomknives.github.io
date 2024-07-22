@@ -1825,6 +1825,10 @@ ol {
 /* Medium Device = 1200px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
+  .work__item {
+    background-size: 90% 95%; /* sets the image to 50% of the parent container's width and height */
+  }
+
   .header__nav__menu {
     margin-right: 25px;
   }
@@ -1859,6 +1863,10 @@ ol {
 }
 /* Tablet Device = 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .work__item {
+    background-size: 90% 95%; /* sets the image to 50% of the parent container's width and height */
+  }
 
   .header__logo a {
     display: inline-block;
@@ -1993,7 +2001,7 @@ ol {
 @media only screen and (max-width: 767px) {
 
   .work__item {
-    background-size: 80% 85%; /* sets the image to 50% of the parent container's width and height */
+    background-size: 95% 90%; /* sets the image to 50% of the parent container's width and height */
   }
 
   .portfolio__item__video {
@@ -2131,7 +2139,7 @@ ol {
   }
 
   .grid-sizer {
-    width: calc(50% - 10px);
+    width: calc(30% - 10px);
   }
 
   .work__item.wide__item {
@@ -2186,6 +2194,11 @@ ol {
 }
 /* Small Device = 320px */
 @media only screen and (max-width: 479px) {
+
+
+  .work__item {
+    background-size: 95% 90%; /* sets the image to 50% of the parent container's width and height */
+  }
 
   .hero__text h2 {
     font-size: 30px;
