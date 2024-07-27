@@ -1366,6 +1366,20 @@ ol {
 
 .portfolio__item__video {
   background-size: 100% 100%; /* sets the image to 50% of the parent container's width and height */
+  height: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 28px;
+}
+.portfolio__item__video-horiz {
+  background-size: 100% 100%; /* sets the image to 50% of the parent container's width and height */
   height: 240px;
   display: -webkit-box;
   display: -ms-flexbox;
