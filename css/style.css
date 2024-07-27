@@ -790,43 +790,160 @@ ol {
 .blog__item.latest__item {
   margin-bottom: 0;
 }
-/* latest blog hover images 1 - 6 */
-.blog__item.latest__item01:hover {
-  border: 1px solid #222222 !important;
-  background: url(../images/Knives/IMG_0998.jpeg);
+/* latest blog hover images 1 - 7 */
+/* blog 01 */
+.blog__item.latest__item01::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/backgrounds/mountain-starry.jpg);
   background-size: cover;
-}
-.blog__item.latest__item02:hover {
-  border: 1px solid #222222 !important;
-  background: url(../images/Knives/IMG_4354.JPG);
-  background-size: cover;
-}
-.blog__item.latest__item03:hover {
-  border: 1px solid #222222 !important;
-  background: url(../images/Knives/IMG_4547-copy.JPG);
-  background-size: cover;
-}
-.blog__item.latest__item04:hover {
-  border: 1px solid #222222 !important;
-  background: url(../images/Knives/IMG_5054.JPG);
-  background-size: cover;
-}
-.blog__item.latest__item05:hover {
-  border: 1px solid #222222 !important;
-  background: url(../images/Knives/IMG_4842.JPG);
-  background-size: cover;
-}
-.blog__item.latest__item06:hover {
-  border: 1px solid #222222 !important;
-  background: url(../images/Knives/IMG_5692.jpeg);
-  background-size: cover;
-}
-.blog__item.latest__item07:hover {
-  border: 1px solid #222222 !important;
-  background: url(../images/Knives/IMG_5966.jpeg);
-  background-size: cover;
+  opacity: 0; /* initial opacity */
+  transition: opacity 0.3s ease-in-out;
 }
 
+.blog__item.latest__item01:hover::before {
+  opacity: 0.4; /* opacity on hover */
+}
+
+.blog__item.latest__item01:hover {
+  border: 1px solid #222222 !important;
+}
+
+/* blog 03 */
+.blog__item.latest__item02::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/backgrounds/red-mountains.jpg);
+  background-size: cover;
+  opacity: 0; /* initial opacity */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.blog__item.latest__item02:hover::before {
+  opacity: 0.4; /* opacity on hover */
+}
+
+.blog__item.latest__item02:hover {
+  border: 1px solid #222222 !important;
+}
+
+/* blog 03 */
+.blog__item.latest__item03::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/backgrounds/starry-night.jpg);
+  background-size: cover;
+  opacity: 0; /* initial opacity */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.blog__item.latest__item03:hover::before {
+  opacity: 0.4; /* opacity on hover */
+}
+
+.blog__item.latest__item03:hover {
+  border: 1px solid #222222 !important;
+}
+
+/* blog 04 */
+.blog__item.latest__item04::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/backgrounds/mountain-starry.jpg);
+  background-size: cover;
+  opacity: 0; /* initial opacity */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.blog__item.latest__item04:hover::before {
+  opacity: 0.4; /* opacity on hover */
+}
+
+.blog__item.latest__item04:hover {
+  border: 1px solid #222222 !important;
+}
+
+/* blog 05 */
+.blog__item.latest__item05::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/backgrounds/red-mountains.jpg);
+  background-size: cover;
+  opacity: 0; /* initial opacity */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.blog__item.latest__item05:hover::before {
+  opacity: 0.4; /* opacity on hover */
+}
+
+.blog__item.latest__item05:hover {
+  border: 1px solid #222222 !important;
+}
+
+/* blog 06 */
+.blog__item.latest__item06::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/backgrounds/starry-night.jpg);
+  background-size: cover;
+  opacity: 0; /* initial opacity */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.blog__item.latest__item06:hover::before {
+  opacity: 0.4; /* opacity on hover */
+}
+
+.blog__item.latest__item06:hover {
+  border: 1px solid #222222 !important;
+}
+
+/* blog 07 */
+.blog__item.latest__item07::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/backgrounds/mountain-starry.jpg);
+  background-size: cover;
+  opacity: 0; /* initial opacity */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.blog__item.latest__item07:hover::before {
+  opacity: 0.4; /* opacity on hover */
+}
+
+.blog__item.latest__item07:hover {
+  border: 1px solid #222222 !important;
+}
 
 .latest__slider.owl-carousel .owl-item .col-lg-4 {
   max-width: 100%;
