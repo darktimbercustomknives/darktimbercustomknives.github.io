@@ -1365,7 +1365,7 @@ ol {
 }
 
 .portfolio__item__video {
-  background-size: 100% 100%; /* sets the image to 50% of the parent container's width and height */
+  background-size: 80% 100%; /* sets the image to % of the parent container's width and height */
   height: 380px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1379,7 +1379,7 @@ ol {
   margin-bottom: 28px;
 }
 .portfolio__item__video-horiz {
-  background-size: 100% 100%; /* sets the image to 50% of the parent container's width and height */
+  background-size: 100% 100%; /* sets the image to % of the parent container's width and height */
   height: 240px;
   display: -webkit-box;
   display: -ms-flexbox;
